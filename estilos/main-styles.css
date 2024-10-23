@@ -1,0 +1,210 @@
+/* ESTILOS GENERALES PARA EL CONTENIDO DE TODA LA PAGINA */
+
+*{
+    box-sizing: border-box;     /*Reiniciar el modelo de caja*/
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+/* ------ MOBILE FIRST ------ */
+body{
+    margin: 0px;
+}
+
+/* SECCION HERO */
+.hero{
+    height: 60vh;
+    background-image: url(../imagenes/Fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    position: relative;
+    margin: 15px 0px 0px 10px;
+}
+
+.titulos{
+    text-align: center;
+    color: #F5F0ED;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.2;
+    width: 80%;
+}
+
+h1{
+    margin: 5% auto 30px auto;
+}
+
+hr{
+    width: 30%;
+    height: 3px; /* Grosor de la línea */
+    background-color: #F5F0ED;
+    margin-bottom: 30px;
+}
+
+.parrafos p{
+    width: 85%;
+    margin-bottom: 10%;
+    color: #F5F0ED;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+}
+
+/* SECCION CAJAS DE EVENTOS Y CONTACTO */
+.eventos, .contacto{
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.rojo{
+    display: inline-block;
+    background-color: #D03B40;
+    color: #DED6C0;
+    height: 50%;
+    width: 100%;
+}
+
+.beige{
+    display: inline-block;
+    background-color: #DED6C0;
+    color: #D03B40;
+    height: 50%;
+    width: 100%;
+}
+
+.titulos-cajas{
+    font-weight: 800;
+    font-size: 28px;
+    margin: 15% auto 5% auto;
+}
+
+.parrafos-cajas{
+    margin: auto 10%;
+}
+
+/* INVITACION */
+.invitacion{
+    background-image: url(../imagenes/Fondo2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 55vh;
+    padding-top: 15%;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+/* BOTON PRODUCTOS */
+#boton-productos{   
+    color: #DED6C0;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid white;
+    padding: 10px 20px;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    transition: 0.1s;
+}
+
+/* PRODUCTOS */
+#productos{
+    height: 140%;
+    margin-top: 0;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.producto img{
+    width: 110px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.producto h3{
+    margin: 5px auto 0 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #241D1B;
+}
+
+.producto p{
+    text-align: left;
+    color: #3C3C3B;
+}
+
+/* CONTACTO */
+#email-adress{
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
+    color: #D03B40;
+}
+
+#map-adress{
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
+    color: #DED6C0;
+}
+
+/* FOOTER */
+footer {
+    background: #241D1B;
+    height: 10vh;
+    padding: 20px;
+}
+
+footer p{
+    text-align: left;
+    color: #F5F0ED;
+}
+
+/* NAVBAR */
+/* Ocultar el menú por defecto */
+.menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Mostrar el menú cuando se active */
+.menu-desplegado {
+    display: block;
+}
+
+/* Estilos para el botón de menú */
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Estilos para los enlaces del menú */
+.menu li {
+    margin: 10px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
