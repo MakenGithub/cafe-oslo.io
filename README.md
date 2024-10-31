@@ -1,2 +1,5 @@
 # cafe-oslo.io
-Página web básica de una cafetería, diseñada en base a un curso sobre el uso de HTML y CSS para implementar las funciones básicas de estos lenguajes
+Diseño de curso sobre el uso de HTML y CSS de www.domestika.org
+La idea principal del proyecto es forzar el uso de las etiquetas básicas
+para acostumbrarse a ellas, por lo que el código fuente puede que no respete
+las mejores prácticas de diseño
